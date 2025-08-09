@@ -1,0 +1,465 @@
+{
+    "navigation" : [
+        {
+            "name": "Home",
+            "path": "/"
+        },
+        {
+            "name": "About",
+            "path": "/about"
+        },
+        {
+            "name": "Services",
+            "path": "/services"
+        },
+        {
+            "name": "Contact",
+            "path": "/contact"
+        }
+    ],
+    "home" : [
+        {
+            "collaborators": [
+                {
+                    "name": "anodamineCollaboratorsHome"
+                },
+                {
+                    "name": "bdoCollaboratorsHome"
+                },
+                {
+                    "name": "brigItonCollaboratorsHome"
+                },
+                {
+                    "name": "bringItCollaboratorsHome"
+                },
+                {
+                    "name": "campappCollaboratorsHome"
+                },
+                {
+                    "name": "deyelCollaboratorsHome"
+                },
+                {
+                    "name": "fuelCollaboratorsHome"
+                },
+                {
+                    "name": "kliikerCollaboratorsHome"
+                },
+                {
+                    "name": "lemonCollaboratorsHome"
+                },
+                {
+                    "name": "nexoCollaboratorsHome"
+                },
+                {
+                    "name": "painterCollaboratorsHome"
+                },
+                {
+                    "name": "peperadioCollaboratorsHome"
+                },
+                {
+                    "name": "planifyCollaboratorsHome"
+                }
+            ],
+            "interest" : [
+                {
+                    "interestOne" : [
+                        {
+                            "information" : [
+                                {
+                                    "component" : "InterestHomeSkeletonOne"
+                                }
+                            ],
+                            "line" : [
+                                {
+                                    "description" : ""
+                                }
+                            ]
+                        }
+                    ],
+                    "interestTwo" : [
+                        {
+                            "information" : [
+                                {
+                                    "component" : "InterestHomeSkeletonTwo"
+                                }
+                            ],
+                            "line" : [
+                                {
+                                    "description" : ""
+                                }
+                            ]
+                        }
+                    ],
+                    "interestThree" : [
+                        {
+                            "information" : [
+                                {
+                                    "component" : "InterestHomeSkeletonThree"
+                                }
+                            ]
+                        }
+                    ]
+
+                }
+            ]
+        }
+    ],
+    "services" : [
+        {
+            "servicesLogo" : [
+                {
+                    "image": 1,
+                    "title": "Gen Leads Inhouse System",
+                    "miniDescription": "Web profesional y SEO",
+                    "description": "Transforma tu presencia online con páginas web profesionales, responsivas y optimizadas para SEO.",
+                    "grid" : "gridLayouTop gridLayoutBottom ",
+                    "transition" : ".1",
+                    "url": "Gen-Leads-Inhouse-System"
+                },
+                {
+                    "image": 2,
+                    "title": "LinkedIn Elevate",
+                    "miniDescription": "Asesoría y mantenimiento",
+                    "description": "Mantén tus sistemas en óptimo funcionamiento con asesorías y mantenimientos personalizados y continuos.",
+                    "grid" : "gridLayouTop gridLayoutBottom",
+                    "transition" : ".2",
+                    "url": "LinkedIn-Elevate"
+                },
+                {
+                    "image": 3,
+                    "title": "Prospect Strategy Pro : Data & Qualify",
+                    "miniDescription": "Software a medida",
+                    "description": "Desarrollamos software a medida para mejorar la eficiencia operativa y darte una ventaja competitiva.",
+                    "grid" : "gridLayouTop",
+                    "transition" : ".3",
+                    "url": "Prospect-Strategy-Pro-Data-&-Qualify"
+                },
+                {
+                    "image": 4,
+                    "title": "Prospect Elevation Program",
+                    "miniDescription": "Gestión confiable",
+                    "description": "Gestiona tus despliegues con confianza, asegurando una transición fluida y un rendimiento superior.",
+                    "grid" : "gridLayouTop gridLayoutBottom",
+                    "transition" : ".4",
+                    "url": "Prospect-Elevation-Program"
+                }
+
+            ],
+            "informationService" : [
+                {
+                    "id" : "Gen-Leads-Inhouse-System",
+                    "title" : "Expertos en la Construcción ",
+                    "addTitle" : "Digital de Páginas Web",
+                    "description" : "En Cybersafe, somos expertos en crear páginas web profesionales y atractivas. Nos especializamos en diseño responsivo y optimizado para SEO, asegurando que tu negocio se destaque en el competitivo mercado online. Con un enfoque en funcionalidad y estética, transformamos tus ideas en una presencia digital impactante y efectiva. Utilizamos las últimas tecnologías para desarrollar sitios rápidos, seguros y adaptados a tus necesidades específicas, brindando una experiencia de usuario excepcional",
+                    "image" : "webPage",
+                    "details" : [
+                        {
+                            "options" : [
+                                {
+                                    "id" : 1,
+                                    "option" : "Diseño Responsivo y Adaptativo"
+                                },
+                                {
+                                    "id" : 2,
+                                    "option" : "Optimización de Velocidad y Rendimiento"
+                                },
+                                {
+                                    "id" : 3,
+                                    "option" : "SEO (Optimización para Motores de Búsqueda)"
+                                },
+                                {
+                                    "id" : 4,
+                                    "option" : "Seguridad y Protección de Datos"
+                                }
+                            ],
+                            "picture" : [
+                                {
+                                    "id" : 1,
+                                    "title" : "Diseño Responsivo y Adaptativo",
+                                    "description" : "Crear páginas web que se adapten a diferentes dispositivos y tamaños de pantalla, garantizando una experiencia de usuario (UX) óptima en móviles, tablets y escritorios. Utilizar frameworks y técnicas modernas para asegurar layouts fluidos y flexibles.",
+                                    "image" : "webPage1"
+                                },
+                                {
+                                    "id" : 2,
+                                    "title" : "Optimización de Velocidad y Rendimiento",
+                                    "description" : "Implementar técnicas que mejoren el tiempo de carga, como la compresión de imágenes, la minificación de archivos y el uso de CDNs. Un rendimiento mejorado reduce las tasas de rebote, mejora la experiencia del usuario y favorece el SEO.",
+                                    "image" : "webPage2"
+                                },
+                                {
+                                    "id" : 3,
+                                    "title" : "SEO (Optimización para Motores de Búsqueda)",
+                                    "description" : "Incorporar prácticas de SEO durante el desarrollo web, optimizando palabras clave, creando contenido relevante y mejorando la estructura del sitio. Estas prácticas aumentan la visibilidad en motores de búsqueda, atrayendo más tráfico orgánico.",
+                                    "image" : "webPage3"
+                                },
+                                {
+                                    "id" : 4,
+                                    "title" : "Seguridad y Protección de Datos",
+                                    "description" : "Implementar medidas de seguridad robustas, incluyendo HTTPS, protección contra inyecciones SQL y XSS, y el uso de WAFs. Asegurar la protección de datos sensibles y la integridad del sitio web, construyendo confianza entre los usuarios.",
+                                    "image" : "webPage4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id" : "LinkedIn-Elevate",
+                    "title" : "Estrategias Personalizadas en",
+                    "addTitle" :  "Asesorías y Mantenimientos",
+                    "description" : "Ofrecemos estrategias personalizadas en asesorías y mantenimientos para asegurar que tus sistemas operen sin interrupciones. Nuestro equipo de expertos proporciona soluciones adaptadas a tus necesidades específicas, identificando y resolviendo problemas de manera proactiva. Con un enfoque integral y continuo, mejoramos la eficiencia y productividad de tus operaciones. Además, nuestras asesorías están diseñadas para anticiparse a posibles inconvenientes y optimizar el rendimiento de tus sistemas, brindándote la tranquilidad y el soporte confiable que tu negocio necesita para prosperar.",
+                    "image" : "asesoriaMantenimiento",
+                    "details" : [
+                        {
+                            "options" : [
+                                {
+                                    "id" : 1,
+                                    "option" : "Monitoreo Proactivo y Preventivo"
+                                },
+                                {
+                                    "id" : 2,
+                                    "option" : "Optimización y Actualización de Sistemas"
+                                },
+                                {
+                                    "id" : 3,
+                                    "option" : "Soporte Técnico y Capacitación"
+                                }
+                            ],
+                            "picture" : [
+                                {
+                                    "id" : 1,
+                                    "title" : "Monitoreo Proactivo y Preventivo",
+                                    "description" : "Implementar sistemas de monitoreo continuo que detecten y prevengan problemas antes de que afecten el rendimiento del sistema. Esto incluye la supervisión de la red, servidores y aplicaciones críticas para identificar posibles fallos y realizar mantenimientos preventivos.",
+                                    "image" : "asesoriaMantenimiento1"
+                                },
+                                {
+                                    
+                                    "id" : 2,
+                                    "title" : "Optimización y Actualización de Sistemas",
+                                    "description" : "Realizar evaluaciones periódicas para identificar áreas de mejora y aplicar actualizaciones necesarias. Esto incluye la optimización de configuraciones, la actualización de software y la implementación de nuevas tecnologías que mejoren el rendimiento y la seguridad.",
+                                    "image" : "asesoriaMantenimiento2"
+                                },
+                                {
+                                    
+                                    "id" : 3,
+                                    "title" : "Soporte Técnico y Capacitación",
+                                    "description" : "Ofrecer soporte técnico accesible y formación personalizada para el personal. Esto incluye la resolución rápida de incidencias y la capacitación en el uso y mantenimiento de los sistemas, asegurando que el equipo esté preparado para manejar situaciones comunes.",
+                                    "image" : "asesoriaMantenimiento3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id" : "Prospect-Strategy-Pro-Data-&-Qualify",
+                    "title" : "Innovación Digital en Desarrollo",
+                    "addTitle" : "Personalizado de Software",
+                    "description" : "Nos especializamos en el desarrollo de software personalizado que se adapta a las necesidades específicas de tu negocio. Nuestro equipo de desarrolladores trabaja estrechamente contigo para entender tus requisitos y objetivos, creando soluciones tecnológicas que mejoran la eficiencia operativa y te brindan una ventaja competitiva. Utilizamos las últimas tecnologías y metodologías ágiles para asegurar que cada proyecto se entregue a tiempo y dentro del presupuesto, con un enfoque en la calidad y la satisfacción del cliente. Desde aplicaciones empresariales complejas hasta soluciones móviles innovadoras, proporcionamos software robusto, seguro y fácil de usar, que integra perfectamente con tus sistemas existentes y mejora significativamente tus procesos empresariales.",
+                    "image" : "software",
+                    "details" : [
+                        {
+                            "options" : [
+                                {
+                                    "id" : 1,
+                                    "option" : "Análisis de Requisitos Detallado"
+                                },
+                                {
+                                    "id" : 2,
+                                    "option" : "Metodología Ágil"
+                                },
+                                {
+                                    "id" : 3,
+                                    "option" : "Integración Continua y Despliegue"
+                                },
+                                {
+                                    "id" : 4,
+                                    "option" : "Pruebas Exhaustivas"
+                                },
+                                {
+                                    "id" : 5,
+                                    "option" : "Documentación y Capacitación"
+                                }
+                            ],
+                            "picture" : [
+                                {
+                                    "id" : 1,
+                                    "title" : "Análisis de Requisitos Detallado",
+                                    "description" : "Realizar un análisis exhaustivo de las necesidades del cliente para definir los requisitos y objetivos del software, asegurando que la solución final se alinee perfectamente con las expectativas del usuario",
+                                    "image" : "software1"
+                                },
+                                {
+                                    
+                                    "id" : 2,
+                                    "title" : "Metodología Ágil",
+                                    "description" : "Adoptar un enfoque ágil para el desarrollo, con ciclos iterativos y mejoras continuas basadas en la retroalimentación del cliente, permitiendo ajustes rápidos y adaptaciones según sea necesario.",
+                                    "image" : "software2"
+                                },
+                                {
+                                    
+                                    "id" : 3,
+                                    "title" : "Integración Continua y Despliegue",
+                                    "description" : "Implementar prácticas de integración continua y despliegue automatizado para detectar errores tempranamente y asegurar entregas rápidas y eficientes del software",
+                                    "image" : "software3"
+                                },
+                                {
+                                    
+                                    "id" : 4,
+                                    "title" : "Pruebas Exhaustivas",
+                                    "description" : "Realizar pruebas rigurosas en todas las etapas del desarrollo para identificar y corregir errores, garantizando que el software funcione correctamente y cumpla con los estándares de calidad.",
+                                    "image" : "software4"
+                                },
+                                {
+                                    
+                                    "id" : 5,
+                                    "title" : "Documentación y Capacitación",
+                                    "description" : "Proporcionar documentación completa y capacitación para usuarios y administradores, facilitando la implementación y el uso del software.",
+                                    "image" : "software5"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id" : "Prospect-Elevation-Program",
+                    "title" : "Implementación Eficiente y ",
+                    "addTitle" : "Avanzada en gestion de despliegues",
+                    "description" : "En la implementación eficiente y avanzada de la gestión de despliegues, nos enfocamos en asegurar que tus aplicaciones y sistemas se lancen de manera fluida y sin contratiempos. Nuestro enfoque se centra en la planificación meticulosa y la ejecución precisa para garantizar una transición sin problemas desde el entorno de desarrollo hasta la producción. Utilizamos herramientas y metodologías modernas para automatizar el proceso, minimizando el riesgo de errores y maximizando la estabilidad del sistema. Con nuestra experiencia en la gestión de despliegues, te ayudamos a optimizar la velocidad y la calidad de las actualizaciones, asegurando que tus usuarios finales experimenten un rendimiento confiable y sin interrupciones.",
+                    "image" : "gestionDespliegue",
+                    "details" : [
+                        {
+                            "options" : [
+                                {
+                                    "id" : 1,
+                                    "option" : "Automatización del Proceso de Despliegue"
+                                },
+                                {
+                                    "id" : 2,
+                                    "option" : "Despliegue Contínuo y Integración Continua"
+                                },
+                                {
+                                    "id" : 3,
+                                    "option" : "Pruebas de Despliegue en Entornos de Staging"
+                                }
+                            ],
+                            "picture" : [
+                                {
+                                    "id" : 1,
+                                    "title" : "Automatización del Proceso de Despliegue",
+                                    "description" : "Implementar herramientas de automatización para gestionar y ejecutar despliegues de manera consistente y rápida, reduciendo el riesgo de errores manuales y acelerando el tiempo de entrega.",
+                                    "image" : "gestionDespliegue1"
+                                },
+                                {
+                                    
+                                    "id" : 2,
+                                    "title" : "Despliegue Contínuo y Integración Continua",
+                                    "description" : "Adoptar prácticas de integración continua y despliegue continuo para realizar actualizaciones frecuentes y automáticas en el entorno de producción, permitiendo una entrega constante de nuevas funcionalidades y correcciones.",
+                                    "image" : "gestionDespliegue2"
+                                },
+                                {
+                                    
+                                    "id" : 3,
+                                    "title" : "Pruebas de Despliegue en Entornos de Staging",
+                                    "description" : "Realizar pruebas exhaustivas en un entorno de staging que simule el entorno de producción antes de realizar el despliegue final, para identificar y solucionar posibles problemas.",
+                                    "image" : "gestionDespliegue3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+  "footer" : [
+        {
+            "footerLinks1" : [
+                {
+                    "title" : true,
+                    "delay" : ".1",
+                    "word" : "Pages"
+                }
+            ],
+            "footerLinks2" : [
+                {
+                    "delay" : ".2",
+                    "word" : "Home"
+                }
+            ],
+            "footerLinks3" : [
+                {
+                    "delay" : ".3",
+                    "word" : "services"
+                }
+            ],
+            "footerLinks4" : [
+                {
+                    "delay" : ".4",
+                    "word" : "About"
+                }
+            ],
+            "footerLinks5" : [
+                {
+                    "delay" : ".5",
+                    "word" : "Contact"
+                }
+            ]
+        },
+        {
+            "footerLinks1" : [
+                {
+                    "title" : true,
+                    "delay" : ".1",
+                    "word" : "social networks"
+                }
+            ],
+            "footerLinks2" : [
+                {
+                    "delay" : ".2",
+                    "word" : " Facebook"
+                }
+            ],
+            "footerLinks3" : [
+                {
+                    "delay" : ".3",
+                    "word" : "Instagram"
+                }
+            ],
+            "footerLinks4" : [
+                {
+                    "delay" : ".4",
+                    "word" : "twitter"
+                }
+            ],
+            "footerLinks5" : [
+                {
+                    "delay" : ".5",
+                    "word" : "LinkedIn"
+                }
+            ]
+        },
+        {
+            "footerLinks1" : [
+                {
+                    "title" : true,
+                    "delay" : ".1",
+                    "word" : "Legal"
+                }
+            ],
+            "footerLinks2" : [
+                {
+                    "delay" : ".2",
+                    "word" : "Privacy Policy"
+                }
+            ],
+            "footerLinks3" : [
+                {
+                    "delay" : ".3",
+                    "word" : "Terms of Service"
+                }
+            ],
+            "footerLinks4" : [
+                {
+                    "delay" : ".4",
+                    "word" : "Cookie Policy"
+                }
+            ]
+        }
+    ]
+}
