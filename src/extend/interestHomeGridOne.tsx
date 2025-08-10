@@ -1,10 +1,10 @@
 "use client";
 import { cn } from "@/utils/lib";
-import React from "react";
 import { BentoGrid, BentoGridItem } from "@/extend/confi/interestHomeGridOneConfi";
 import { motion } from "framer-motion";
 import { globalClass } from "@/components/globalClass";
-
+import React, { useMemo } from "react";
+import { h1 } from "framer-motion/client";
 
 export function InterestHomeGridOne() {
   return (
@@ -23,60 +23,11 @@ export function InterestHomeGridOne() {
 }
 
 const SkeletonOne = () => {
-  const variants = {
-    initial: {
-      x: 0,
-    },
-    animate: {
-      x: 10,
-      rotate: 5,
-      transition: {
-        duration: 0.2,
-      },
-    },
-  };
-  const variantsSecond = {
-    initial: {
-      x: 0,
-    },
-    animate: {
-      x: -10,
-      rotate: -5,
-      transition: {
-        duration: 0.2,
-      },
-    },
-  };
+    return(
+        <div className="h-full w-full bg-cover bg-no-repeat bg-center" style={{backgroundImage : "url(/home/iustrationInterest.webp)"}} />
 
-  return (
-    <motion.div
-      initial="initial"
-      whileHover="animate"
-      className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
-    >
-      <motion.div
-        variants={variants}
-        className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-white dark:bg-black"
-      >
-        <div className="h-6 w-6 rounded-full bg-cover bg-no-repeat bg-center" style={{backgroundImage : "url(/home/fashionThreeInterest.jpg)"}} />
-        <div className="w-full bg-gray-100 h-4 rounded-full dark:bg-neutral-900" />
-      </motion.div>
-      <motion.div
-        variants={variantsSecond}
-        className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center space-x-2 w-3/4 ml-auto bg-white dark:bg-black"
-      >
-        <div className="w-full bg-gray-100 h-4 rounded-full dark:bg-neutral-900" />
-        <div className="h-6 w-6 rounded-full bg-cover bg-no-repeat bg-center" style={{backgroundImage : "url(/home/fashionOneInterest.jpg)"}} />
-      </motion.div>
-      <motion.div
-        variants={variants}
-        className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center space-x-2 bg-white dark:bg-black"
-      >
-        <div className="h-6 w-6 rounded-full bg-cover bg-no-repeat bg-center" style={{backgroundImage : "url(/home/fashionThreeInterest.jpg)"}} />
-        <div className="w-full bg-gray-100 h-4 rounded-full dark:bg-neutral-900" />
-      </motion.div>
-    </motion.div>
-  );
+  )
+
 };
 const SkeletonTwo = () => {
   const variants = {
@@ -190,17 +141,11 @@ const SkeletonFour = () => {
         <p className={`${globalClass.extraP} !text-sm text-neutral-500 mt-4`}>
            SDR Senior
         </p>
-        <p className="border border-red-500 bg-red-100 dark:bg-red-900/20 text-red-600 text-xs rounded-full px-2 py-0.5 mt-4">
-          Delusional
-        </p>
       </motion.div>
       <motion.div className="h-full relative z-20 w-1/3 rounded-2xl bg-white p-4 dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center">
         <div className="h-14 w-14 rounded-full bg-cover bg-no-repeat bg-center" style={{backgroundImage : "url(/home/fiorella.webp)"}} />
         <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
           SDR
-        </p>
-        <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
-          Sensible
         </p>
       </motion.div>
       <motion.div
@@ -211,50 +156,63 @@ const SkeletonFour = () => {
         <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
           SDR manager
         </p>
-        <p className="border border-orange-500 bg-orange-100 dark:bg-orange-900/20 text-orange-600 text-xs rounded-full px-2 py-0.5 mt-4">
-          Helpless
-        </p>
       </motion.div>
     </motion.div>
   );
 };
 const SkeletonFive = () => {
-  
-  const variants = {
+ const variants = {
     initial: {
-      width: 0,
+      x: 0,
     },
     animate: {
-      width: "100%",
+      x: 10,
+      rotate: 5,
       transition: {
         duration: 0.2,
       },
     },
-    hover: {
-      width: ["0%", "100%"],
+  };
+  const variantsSecond = {
+    initial: {
+      x: 0,
+    },
+    animate: {
+      x: -10,
+      rotate: -5,
       transition: {
-        duration: 2,
+        duration: 0.2,
       },
     },
   };
-  const arr = new Array(6).fill(0);
+
   return (
     <motion.div
       initial="initial"
-      animate="animate"
-      whileHover="hover"
+      whileHover="animate"
       className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
     >
-      {arr.map((_, i) => (
-        <motion.div
-          key={"skelenton-two" + i}
-          variants={variants}
-          style={{
-            maxWidth: Math.random() * (100 - 40) + 40 + "%",
-          }}
-          className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-neutral-100 dark:bg-black w-full h-4"
-        ></motion.div>
-      ))}
+      <motion.div
+        variants={variants}
+        className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-white dark:bg-black"
+      >
+        <div className="h-8 w-10 rounded-full bg-cover bg-no-repeat bg-center" style={{backgroundImage : "url(/home/stefany.webp)"}} />
+        <div className="w-full bg-gray-100 h-4 rounded-full dark:bg-neutral-900" />
+      </motion.div>
+      <motion.div
+        variants={variantsSecond}
+        className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center space-x-2 w-3/4 ml-auto bg-white dark:bg-black"
+      >
+        <div className="w-full bg-gray-100 h-4 rounded-full dark:bg-neutral-900" />
+        <div className="h-8 w-10 rounded-full bg-cover bg-no-repeat bg-center" style={{backgroundImage : "url(/home/fashionThreeInterest.webp)"}} />
+      </motion.div>
+      <motion.div
+        variants={variants}
+        className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center space-x-2 bg-white dark:bg-black"
+      >
+        <div className="h-8 w-10 rounded-full bg-cover bg-no-repeat bg-center" style={{backgroundImage : "url(/home/stefany.webp)"}} />
+        <div className="w-full bg-gray-100 h-4 rounded-full dark:bg-neutral-900" />
+      </motion.div>
     </motion.div>
   );
 };
@@ -304,7 +262,7 @@ const items = [
     title: "gestión de Leads",
     description: (
       <span>
-          Mejora la calidad y conversión de tus prospectos fácilmente.
+          Mejora la calidad y conversión de tus leads fácilmente.
       </span>
     ),
     header: <SkeletonFive />,

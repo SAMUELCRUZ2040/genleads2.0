@@ -43,7 +43,7 @@ export default function Navbar() {
             `${globalClass.flexCenter}  ${globalClass.extraP} gap-2 text-lg  flex`,
             "bg-[#000000] text-white rounded-tr-xl rounded-bl-xl",
             "px-11 py-3 hover:scale-[1.06] transition-all"
-          )} >Let's start?</Link>
+          )} >Contactanos</Link>
         </div>
       </div>
     </nav>

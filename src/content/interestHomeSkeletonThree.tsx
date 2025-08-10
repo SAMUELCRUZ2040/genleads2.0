@@ -7,7 +7,7 @@ export default function InterestHomeSkeletonThree() {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
             <video
-                src="/videos/homeInterest2.mp4"
+                src="/videos/homeInterest3.webm"
                 autoPlay
                 loop
                 muted
@@ -19,9 +19,11 @@ export default function InterestHomeSkeletonThree() {
             </video>
         </div>
         <div className="description h-full flex flex-col justify-center items-start gap-5">
-            <h4 className={globalClass.h4}>¿Por qué nos diferenciamos de los demás?</h4>
+            <h4 className={globalClass.h4}>
+                Gen Leads: Impulso Estratégico para tu Negocio
+            </h4>
             <p className={globalClass.extraP}>
-                Combinamos creatividad experiencia y compromiso para ofrecer soluciones personalizadas que se adaptan a cada proyecto Nuestra filosofía se basa en la colaboración constante la innovación continua y la búsqueda de la excelencia para superar siempre las expectativas de nuestros clientes
+                En Gen Leads, potenciamos el crecimiento empresarial en Latinoamérica y Europa con estrategias personalizadas, adaptables y orientadas a resultados. Nos sumergimos en la comprensión de tu negocio, co-creamos soluciones y evaluamos constantemente para mantenernos a la vanguardia. Más que generar leads, construimos relaciones sólidas y oportunidades sostenibles para llevar tu empresa a nuevas alturas.
             </p>
         </div>
     </div>

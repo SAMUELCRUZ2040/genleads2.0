@@ -71,7 +71,9 @@
                             ],
                             "line" : [
                                 {
-                                    "description" : ""
+                                    "title" : "Desarrollo Integral de Negocios",
+                                    "descriptionOne" : "Soluciones desde Contactos hasta",
+                                    "descriptionTwo" : "Entregas Calificadas"
                                 }
                             ]
                         }
@@ -85,7 +87,9 @@
                             ],
                             "line" : [
                                 {
-                                    "description" : ""
+                                    "title" : "Transformación Estratégica para Tu Éxito",
+                                    "descriptionOne" : "Descubre que con Gen Leads",
+                                    "descriptionTwo" : "Puedes impulsa tu exito"
                                 }
                             ]
                         }

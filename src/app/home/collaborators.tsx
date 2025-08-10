@@ -17,7 +17,7 @@ const ReviewCard = ({
         "relative h-full w-64 cursor-pointer overflow-hidden p-5",
       )}
     >
-        <div className="bg-cover bg-no-repeat w-[auto] h-[3rem] bg-center" style={{ backgroundImage : `url(/home/${name}.png)` }} />
+        <div className="bg-cover bg-no-repeat w-[auto] h-[3rem] bg-center" style={{ backgroundImage : `url(/home/${name}.webp)` }} />
     </figure>
   );
 };

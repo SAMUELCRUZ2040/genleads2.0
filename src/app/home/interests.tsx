@@ -16,7 +16,11 @@ export default function Interests() {
                     />
                 </Card>
                     {data[0] && "line" in data[0] && Array.isArray(data[0].line) && data[0].line[0] ? (
-                        <Line number={key} />
+                        <Line
+                            title={data[0]?.line[0]?.title} 
+                            descriptionOne={data[0]?.line[0]?.descriptionOne} 
+                            DescriptionTwo={data[0]?.line[0]?.descriptionTwo}                        
+                        />
                     ) : null}
                 </div>
             ))}

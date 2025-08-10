@@ -40,7 +40,7 @@ export default function Footer() {
                 {/* Large Gradient Title */}
                 <div className="container w-full flex justify-center items-center">
                     <h2 className="text-center uppercase mt-20 text-5xl md:text-9xl lg:text-[12rem] xl:text-[13rem] font-bold bg-clip-text text-transparent bg-gradient-to-b from-[#ffffff2f] dark:from-neutral-950 to-neutral-200 dark:to-neutral-800 max-md:pb-8 max-md:text-[5rem]">
-                        let's start
+                        Gen Leads
                     </h2>
                 </div>
             </div>
