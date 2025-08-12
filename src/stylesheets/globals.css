@@ -78,3 +78,10 @@ section {
 .animate-marquee-vertical {
   animation: marquee-vertical var(--duration, 40s) linear infinite;
 }
+
+
+@media screen and (max-width: 1024px) {
+  body{
+    padding: 0rem 1.5rem;
+  }
+}

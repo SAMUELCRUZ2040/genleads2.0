@@ -5,7 +5,7 @@ import Action from "./action";
 
 export default function Footer() {
     return (
-        <footer className="max-lg:px-5 mt-72 pt-44">
+        <footer className="max-lg:px-5 mt-9 pt-44">
             <Action />
             <hr className="mt-12" />
             <div className="flex flex-col items-center">

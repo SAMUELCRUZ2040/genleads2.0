@@ -112,7 +112,7 @@
         {
             "servicesLogo" : [
                 {
-                    "image": 1,
+                    "image": "InhouseSystem",
                     "title": "Gen Leads Inhouse System",
                     "miniDescription": "Web profesional y SEO",
                     "description": "Transforma tu presencia online con páginas web profesionales, responsivas y optimizadas para SEO.",
@@ -121,7 +121,7 @@
                     "url": "Gen-Leads-Inhouse-System"
                 },
                 {
-                    "image": 2,
+                    "image": "linkedinElevate",
                     "title": "LinkedIn Elevate",
                     "miniDescription": "Asesoría y mantenimiento",
                     "description": "Mantén tus sistemas en óptimo funcionamiento con asesorías y mantenimientos personalizados y continuos.",
@@ -130,7 +130,7 @@
                     "url": "LinkedIn-Elevate"
                 },
                 {
-                    "image": 3,
+                    "image": "prospectElevation",
                     "title": "Prospect Strategy Pro : Data & Qualify",
                     "miniDescription": "Software a medida",
                     "description": "Desarrollamos software a medida para mejorar la eficiencia operativa y darte una ventaja competitiva.",
@@ -139,7 +139,7 @@
                     "url": "Prospect-Strategy-Pro-Data-&-Qualify"
                 },
                 {
-                    "image": 4,
+                    "image": "prospectStrategy",
                     "title": "Prospect Elevation Program",
                     "miniDescription": "Gestión confiable",
                     "description": "Gestiona tus despliegues con confianza, asegurando una transición fluida y un rendimiento superior.",
@@ -365,6 +365,140 @@
                                     "image" : "gestionDespliegue3"
                                 }
                             ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "testimonies" : [
+        {
+            "firstRow" : [
+                {
+                    "image" : "thalamus",
+                    "name": "Gastón B.",
+                    "quote": "Apertura de mercado en Espa ña y EEUU, expansión de servicio Gen Leads a servicio comercial, dando mayor soporte comercial.",
+                    "secondQuote" : "Llevamos casi un año trabajando con Gen Leads y estamos muy satisfechos. Entregan reuniones en target de forma constante, informan sobre el progreso y proponen ideas para mejorar las ventas.",
+                    "specialitation": "Founder & CEO"
+                },
+                {
+                    "image" : "optaris",
+                    "name": "Uriel Trajtenberj",
+                    "quote": "Consolidación y apertura de mercado en países de Latinoamérica como México, Colombia, Chile y Panamá.",
+                    "secondQuote" : "Con respecto al servicio, estoy contento. La atención de ustedes siempre es muy cálida. Están predispuestos a escuchar nuevas ideas y lo mejor es que proponen ustedes también.",
+                    "specialitation": "Chief Marketing Officer"
+                },
+                {
+                    "image" : "kliiker",
+                    "name": "Laura Cardona",
+                    "quote": "Consolidación y apertura de mercado en países de Latinoamérica como México, Colombia, Chile y Panamá.",
+                    "secondQuote" : "Mi experiencia con GenLeads ha sido excelente: amables, profesionales y siempre dispuestos a ayudar. Valoro su compromiso, dedicación y calidad humana en cada interacción.",
+                    "specialitation": "Líder de Marketplace"
+                },
+                {
+                    "image" : "thalamus",
+                    "name": "Gastón B.",
+                    "quote": "Apertura de mercado en Espa ña y EEUU, expansión de servicio Gen Leads a servicio comercial, dando mayor soporte comercial.",
+                    "secondQuote" : "Llevamos casi un año con Gen Leads y su servicio ha sido excelente. Cumplen con reuniones en target, informan avances y aportan ideas para impulsar las ventas.",
+                    "specialitation": "Founder & CEO"
+                },
+                {
+                    "image" : "optaris",
+                    "name": "Uriel Trajtenberj",
+                    "quote": "Consolidación y apertura de mercado en países de Latinoamérica como México, Colombia, Chile y Panamá.",
+                    "secondQuote" : "Con respecto al servicio, estoy contento. La atención de ustedes siempre es muy cálida. Están predispuestos a escuchar nuevas ideas y lo mejor es que proponen ustedes también.",
+                    "specialitation": "Chief Marketing Officer"
+                }
+            ],
+            "secondRow" : [
+                {
+                    "image" : "thalamus",
+                    "name": "Gastón B.",
+                    "quote": "Apertura de mercado en Espa ña y EEUU, expansión de servicio Gen Leads a servicio comercial, dando mayor soporte comercial.",
+                    "secondQuote" : "Llevamos casi un año con Gen Leads y su servicio ha sido excelente. Cumplen con reuniones en target, informan avances y aportan ideas para impulsar las ventas.",
+                    "specialitation": "Founder & CEO"
+                },
+                {
+                    "image" : "optaris",
+                    "name": "Uriel Trajtenberj",
+                    "quote": "Consolidación y apertura de mercado en países de Latinoamérica como México, Colombia, Chile y Panamá.",
+                    "secondQuote" : "Con respecto al servicio, estoy contento. La atención de ustedes siempre es muy cálida. Están predispuestos a escuchar nuevas ideas y lo mejor es que proponen ustedes también.",
+                    "specialitation": "Chief Marketing Officer"
+                },
+                {
+                    "image" : "kliiker",
+                    "name": "Laura Cardona",
+                    "quote": "Consolidación y apertura de mercado en países de Latinoamérica como México, Colombia, Chile y Panamá.",
+                    "secondQuote" : "Mi experiencia con GenLeads ha sido excelente: amables, profesionales y siempre dispuestos a ayudar. Valoro su compromiso, dedicación y calidad humana en cada interacción.",
+                    "specialitation": "Líder de Marketplace"
+                },
+                {
+                    "image" : "thalamus",
+                    "name": "Gastón B.",
+                    "quote": "Apertura de mercado en Espa ña y EEUU, expansión de servicio Gen Leads a servicio comercial, dando mayor soporte comercial.",
+                    "secondQuote" : "Llevamos casi un año con Gen Leads y su servicio ha sido excelente. Cumplen con reuniones en target, informan avances y aportan ideas para impulsar las ventas.",
+                    "specialitation": "Founder & CEO"
+                },
+                {
+                    "image" : "optaris",
+                    "name": "Uriel Trajtenberj",
+                    "quote": "Consolidación y apertura de mercado en países de Latinoamérica como México, Colombia, Chile y Panamá.",
+                    "secondQuote" : "Con respecto al servicio, estoy contento. La atención de ustedes siempre es muy cálida. Están predispuestos a escuchar nuevas ideas y lo mejor es que proponen ustedes también.",
+                    "specialitation": "Chief Marketing Officer"
+                }
+            ]
+        }
+    ],
+    "contact" : [
+        {
+            "titleForm" : [
+                {
+                    "text" : "Genial! Estas listo para charlar?",
+                    "delay" : ".1",
+                    "color" : false
+
+                },
+                {
+                    "text" : "Estamos aquí para resolver tus dudas",
+                    "delay" : ".2",
+                    "color" : true
+                }
+            ],
+            "form" : [
+                {
+                    "gridForm" : [
+                        {                    
+                            "type" : "text",
+                            "inputType" : "input",
+                            "name" : "nameUser",
+                            "placeholder" : "write your name"
+                        }
+                    ],
+                    "gridForm2" : [
+                        {
+                            "type" : "number",
+                            "inputType" : "input",
+                            "name" : "phone",
+                            "placeholder" : "write your phone"
+                        }
+                    ]
+                },
+                {
+                    "gridForm" : [
+                        {
+                            "type" : "email",
+                            "inputType" : "input",
+                            "name" : "email",
+                            "placeholder" : "wrire your email"
+                        }
+                    ]
+                },
+                {
+                    "gridForm" : [
+                        {
+                            "inputType" : "textarea",
+                            "name" : "message",
+                            "placeholder" : "wrire your message"
                         }
                     ]
                 }
