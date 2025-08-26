@@ -23,11 +23,11 @@ export default function Line({
         />
         <div className="p-8 m-5">
           <h3 className={cn(
-            `${globalClass.h3} flex flex-col gap-5`,
-           `max-lg:pe-0 max-lg:text-start max-lg:justify-start max-lg:items-start`
+            `${globalClass.h3} flex flex-col gap-5 `,
+           `max-lg:pe-0 max-lg:text-start max-lg:justify-start max-lg:items-start `
           )}>
-            <span className="font-bold ">{title}</span>
-            <span>{descriptionOne}</span>
+            <span className="font-bold text-primary">{title}</span>
+            <span className="text-pretty">{descriptionOne}</span>
             <span>{DescriptionTwo}</span>
           </h3>
         </div>

@@ -25,8 +25,8 @@ const TrueFocus: React.FC<TrueFocusProps> = ({
     sentence = "True Focus",
     manualMode = false,
     blurAmount = 5,
-    borderColor = "#66cead",
-    glowColor = "rgba(0, 255, 0, 0.6)",
+    borderColor = "#c86dbd",
+    glowColor = "rgba(245, 40, 145, 0.8)",
     animationDuration = 0.5,
     pauseBetweenAnimations = 1,
 }) => {
@@ -77,7 +77,7 @@ const TrueFocus: React.FC<TrueFocusProps> = ({
 
     return (
         <div
-            className="relative flex gap-4 justify-center items-center flex-wrap"
+            className="relative flex gap-4 justify-center items-center flex-wrap "
             ref={containerRef}
         >
             {words.map((word, index) => {
@@ -86,7 +86,7 @@ const TrueFocus: React.FC<TrueFocusProps> = ({
                     <span
                         key={index}
                         ref={(el) => { wordRefs.current[index] = el; }}
-                        className={`${globalClass.h1} relative  font-black cursor-pointer`}
+                        className={`${globalClass.h1} relative  font-black cursor-pointer text-primary`}
                         style={{
                             filter: manualMode
                                 ? isActive

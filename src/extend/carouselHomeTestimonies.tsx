@@ -13,11 +13,10 @@ export const InfiniteMovingCards = ({
 }: {
   items: {
     quote: string;
-    secondQuote: string;
     name: string;
     specialitation: string;
     image: string;
-
+    start: number;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -69,7 +68,7 @@ export const InfiniteMovingCards = ({
       } else if (speed === "normal") {
         containerRef.current.style.setProperty("--animation-duration", "40s");
       } else {
-        containerRef.current.style.setProperty("--animation-duration", "80s");
+        containerRef.current.style.setProperty("--animation-duration", "110s");
       }
     }
   };
@@ -78,7 +77,6 @@ export const InfiniteMovingCards = ({
       ref={containerRef}
       className={cn(
                 "scroller  z-20 max-w-7xl  ",
-
         className,
       )}
     >
@@ -90,44 +88,44 @@ export const InfiniteMovingCards = ({
           pauseOnHover && "hover:[animation-play-state:paused]",
         )}
       >
-        {items.map((item, idx) => (
-          <li
-            className="relative w-[350px] max-w-full shrink-0 rounded-2xl border border-b-0 border-zinc-200 bg-[linear-gradient(180deg,#fafafa,#f5f5f5)] px-8 py-6 md:w-[450px] dark:border-zinc-700 dark:bg-[linear-gradient(180deg,#27272a,#18181b)]"
-            key={idx}
-          >
-            <blockquote>
-              <div
-                aria-hidden="true"
-                className="user-select-none pointer-events-none absolute -top-0.5 -left-0.5 -z-1 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
-              ></div>
-              <div className="flex justify-between items-start w-full h-auto py-3">
-                <div className="flex flex-col gap-4 ">
-                      <div className="h-8 w-36 bg-cover bg-no-repeat bg-center" style={{backgroundImage : `url(/home/${item.image}.png)`}} />
-                      <span className={`${globalClass.smallP} flex flex-col `}>
-                        <span>
-                          {item.name}
-                        </span>
-                        <span>
-                          {item.specialitation}
-                        </span>
-                      </span>
-                  </div>
-                  <div className="h-7 w-7 bg-cover bg-no-repeat bg-center" style={{backgroundImage : `url(/home/check.png)`}} />
+        {items.map((item, idx) => {
+          return(
+            <li
+              className={cn(
+                "relative w-[350px] max-w-full  px-8 py-6 md:w-[450px]  ",
+                "shadow-[0_0_10px_3px_#c86dbd3d] shrink-0 rounded-2xl border",
+                "flex flex-col gap-8 items-start justify-center"
+              )}
+              key={idx}
+            >
+
+              <span className="w-full flex justify-between">
+                  <p>{item.name}</p>
+                  <div className="h-7 w-7 bg-cover bg-no-repeat bg-center" style={{backgroundImage : `url(/icons/check.png)`}} />
+              </span>
+              <div className={cn(
+                "flex flex-col gap-3",
+                `${globalClass.extraP}`
+              )}>
+
+                <p>{item.specialitation}</p>
+                <p className={`${globalClass.smallP}`}>{item.quote}</p>
               </div>
-              <div className="flex flex-col gap-5">
-                <p className={`${globalClass.smallP}`}>
-                  {item.quote}
-                </p>
-                <p className={`${globalClass.extraP}`}>
-                  {item.secondQuote}
-                </p>
-              </div>
-            </blockquote>
-          </li>
-        ))}
+                <div className="start flex gap-5">
+                  {[...Array(item.start)].map((_, i) => (
+                    <div
+                      key={i}
+                      className="h-7 w-7 bg-cover bg-no-repeat bg-center"
+                      style={{ backgroundImage: `url(/icons/start.png)` }}
+                    />
+                  ))}
+                </div>
+            </li>
+          )
+        })}
       </ul>
-      <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-background"></div>
-      <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-background"></div>
+      <div className="pointer-events-none absolute inset-y-0 left-0 w-1/6 bg-gradient-to-r from-background"></div>
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-1/6 bg-gradient-to-l from-background"></div>
     </div>
   );
 };

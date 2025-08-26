@@ -19,45 +19,65 @@
     ],
     "home" : [
         {
+            "frontPage" :[
+                {
+                    "id": 1,
+                    "name": "John Doe",
+                    "designation": "Software Engineer",
+                    "image": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80"
+                },
+                {
+                    "id": 2,
+                    "name": "Robert Johnson",
+                    "designation": "Product Manager",
+                    "image": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+                },
+                {
+                    "id": 3,
+                    "name": "Jane Smith",
+                    "designation": "Data Scientist",
+                    "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+                }
+            ],
             "collaborators": [
                 {
-                    "name": "anodamineCollaboratorsHome"
+                    "name": "AnodamineCollaboratorsHome"
                 },
                 {
-                    "name": "bdoCollaboratorsHome"
-                },
-                {
-                    "name": "brigItonCollaboratorsHome"
+                    "name": "BdoPeruCollaboratorsHome"
                 },
                 {
                     "name": "bringItCollaboratorsHome"
                 },
                 {
-                    "name": "campappCollaboratorsHome"
+                    "name": "CampappCollaboratorsHome"
                 },
                 {
-                    "name": "deyelCollaboratorsHome"
+                    "name": "ColombiaBringItoCollaboratorsHome"
                 },
                 {
-                    "name": "fuelCollaboratorsHome"
+                    "name": "DeyelCollaboratorsHome"
+                },
+                {
+                    "name": "FuelCollaboratorsHome"
                 },
                 {
                     "name": "kliikerCollaboratorsHome"
                 },
                 {
-                    "name": "lemonCollaboratorsHome"
+                    "name": "lemonlabsCollaboratorsHome"
                 },
                 {
-                    "name": "nexoCollaboratorsHome"
+                    "name": "NexxoCaribeCollaboratorsHome"
                 },
                 {
-                    "name": "painterCollaboratorsHome"
+                    "name": "PepeRadioCollaboratorsHome"
                 },
                 {
-                    "name": "peperadioCollaboratorsHome"
+                    "name": "PlanifyCollaboratorsHome"
                 },
                 {
-                    "name": "planifyCollaboratorsHome"
+                    "name": "ThatPainterCollaboratorsHome"
                 }
             ],
             "interest" : [
@@ -152,54 +172,54 @@
             "informationService" : [
                 {
                     "id" : "Gen-Leads-Inhouse-System",
-                    "title" : "Expertos en la Construcción ",
-                    "addTitle" : "Digital de Páginas Web",
-                    "description" : "En Cybersafe, somos expertos en crear páginas web profesionales y atractivas. Nos especializamos en diseño responsivo y optimizado para SEO, asegurando que tu negocio se destaque en el competitivo mercado online. Con un enfoque en funcionalidad y estética, transformamos tus ideas en una presencia digital impactante y efectiva. Utilizamos las últimas tecnologías para desarrollar sitios rápidos, seguros y adaptados a tus necesidades específicas, brindando una experiencia de usuario excepcional",
-                    "image" : "webPage",
+                    "title" : "Gen Leads",
+                    "addTitle" : "Inhouse System",
+                    "description" : "En Gen Leads, diseñamos e implementamos sistemas internos de generación de leads a medida, combinando estrategias outbound, ejecución eficiente y soporte inicial para que tu equipo optimice resultados desde el primer día. Nuestro proceso integral garantiza una instalación rápida, personalizada y con pago único, asegurando que tu empresa cuente con un flujo constante de oportunidades de negocio de forma organizada y efectiva.",
+                    "image" : "Gen-Leads-Inhouse-System",
                     "details" : [
                         {
                             "options" : [
                                 {
                                     "id" : 1,
-                                    "option" : "Diseño Responsivo y Adaptativo"
+                                    "option" : "Sist. Outbound a Medida"
                                 },
                                 {
                                     "id" : 2,
-                                    "option" : "Optimización de Velocidad y Rendimiento"
+                                    "option" : "Ejecución Eficiente"
                                 },
                                 {
                                     "id" : 3,
-                                    "option" : "SEO (Optimización para Motores de Búsqueda)"
+                                    "option" : "Onboarding y Soporte Inicial"
                                 },
                                 {
                                     "id" : 4,
-                                    "option" : "Seguridad y Protección de Datos"
+                                    "option" : "Proceso Gean Leads"
                                 }
                             ],
                             "picture" : [
                                 {
                                     "id" : 1,
-                                    "title" : "Diseño Responsivo y Adaptativo",
-                                    "description" : "Crear páginas web que se adapten a diferentes dispositivos y tamaños de pantalla, garantizando una experiencia de usuario (UX) óptima en móviles, tablets y escritorios. Utilizar frameworks y técnicas modernas para asegurar layouts fluidos y flexibles.",
-                                    "image" : "webPage1"
+                                    "title" : "Sist. Outbound a Medida",
+                                    "description" : "Diseñamos e implementamos un sistema outbound completo y personalizado dentro de tu empresa.",
+                                    "image" : "Outbound-Medida"
                                 },
                                 {
                                     "id" : 2,
-                                    "title" : "Optimización de Velocidad y Rendimiento",
-                                    "description" : "Implementar técnicas que mejoren el tiempo de carga, como la compresión de imágenes, la minificación de archivos y el uso de CDNs. Un rendimiento mejorado reduce las tasas de rebote, mejora la experiencia del usuario y favorece el SEO.",
-                                    "image" : "webPage2"
+                                    "title" : "Ejecución Eficiente",
+                                    "description" : "Definimos mensajes, audiencias, canales y flujos para que tu equipo ejecute con eficiencia desde el día uno.",
+                                    "image" : "Ejecución-Eficiente"
                                 },
                                 {
                                     "id" : 3,
-                                    "title" : "SEO (Optimización para Motores de Búsqueda)",
-                                    "description" : "Incorporar prácticas de SEO durante el desarrollo web, optimizando palabras clave, creando contenido relevante y mejorando la estructura del sitio. Estas prácticas aumentan la visibilidad en motores de búsqueda, atrayendo más tráfico orgánico.",
-                                    "image" : "webPage3"
+                                    "title" : "Onboarding y Soporte Inicial",
+                                    "description" : "Creación de proceso de generación de leads.",
+                                    "image" : "Onboarding-Soporte-Inicial"
                                 },
                                 {
                                     "id" : 4,
-                                    "title" : "Seguridad y Protección de Datos",
-                                    "description" : "Implementar medidas de seguridad robustas, incluyendo HTTPS, protección contra inyecciones SQL y XSS, y el uso de WAFs. Asegurar la protección de datos sensibles y la integridad del sitio web, construyendo confianza entre los usuarios.",
-                                    "image" : "webPage4"
+                                    "title" : "Proceso Gean Leads",
+                                    "description" : "Instalar el proceso de Gen Leads dentro de la empresa.",
+                                    "image" : "Proceso-Gean-Leads"
                                 }
                             ]
                         }
@@ -207,46 +227,57 @@
                 },
                 {
                     "id" : "LinkedIn-Elevate",
-                    "title" : "Estrategias Personalizadas en",
-                    "addTitle" :  "Asesorías y Mantenimientos",
-                    "description" : "Ofrecemos estrategias personalizadas en asesorías y mantenimientos para asegurar que tus sistemas operen sin interrupciones. Nuestro equipo de expertos proporciona soluciones adaptadas a tus necesidades específicas, identificando y resolviendo problemas de manera proactiva. Con un enfoque integral y continuo, mejoramos la eficiencia y productividad de tus operaciones. Además, nuestras asesorías están diseñadas para anticiparse a posibles inconvenientes y optimizar el rendimiento de tus sistemas, brindándote la tranquilidad y el soporte confiable que tu negocio necesita para prosperar.",
-                    "image" : "asesoriaMantenimiento",
+                    "title" : "LinkedIn",
+                    "addTitle" :  "Elevate",
+                    "description" : "LinkedIn Elevate es un servicio diseñado para potenciar tu presencia profesional en LinkedIn. Transformamos tu perfil en una herramienta estratégica capaz de atraer oportunidades reales, optimizando cada detalle de tu presentación. Creamos contenido de valor, aplicamos técnicas de networking efectivo y desarrollamos estrategias orgánicas para aumentar tu alcance e influencia. Además, te ofrecemos un acompañamiento mensual para garantizar que los resultados sean sostenibles y crezcan con el tiempo.",
+                    "image" : "LinkedIn-Elevate",
                     "details" : [
                         {
                             "options" : [
                                 {
                                     "id" : 1,
-                                    "option" : "Monitoreo Proactivo y Preventivo"
+                                    "option" : "Perfil Estratégico"
                                 },
                                 {
                                     "id" : 2,
-                                    "option" : "Optimización y Actualización de Sistemas"
+                                    "option" : "Lead Magnet"
                                 },
                                 {
                                     "id" : 3,
-                                    "option" : "Soporte Técnico y Capacitación"
+                                    "option" : "Networking"
+                                },
+                                {
+                                    "id" : 4,
+                                    "option" : "Impulso Estratégico Orgánico"
                                 }
                             ],
                             "picture" : [
                                 {
                                     "id" : 1,
-                                    "title" : "Monitoreo Proactivo y Preventivo",
-                                    "description" : "Implementar sistemas de monitoreo continuo que detecten y prevengan problemas antes de que afecten el rendimiento del sistema. Esto incluye la supervisión de la red, servidores y aplicaciones críticas para identificar posibles fallos y realizar mantenimientos preventivos.",
-                                    "image" : "asesoriaMantenimiento1"
+                                    "title" : "Perfil Estratégico",
+                                    "description" : "Transformamos tu perfil de LinkedIn en un activo comercial y de posicionamiento de alto impacto.",
+                                    "image" : "Perfil-Estratégico"
                                 },
                                 {
                                     
                                     "id" : 2,
-                                    "title" : "Optimización y Actualización de Sistemas",
-                                    "description" : "Realizar evaluaciones periódicas para identificar áreas de mejora y aplicar actualizaciones necesarias. Esto incluye la optimización de configuraciones, la actualización de software y la implementación de nuevas tecnologías que mejoren el rendimiento y la seguridad.",
-                                    "image" : "asesoriaMantenimiento2"
+                                    "title" : "Lead Magnet",
+                                    "description" : "Creamos contenido que construye autoridad, genera confianza y te posiciona como referente en tu sector.",
+                                    "image" : "Lead-Magnet"
                                 },
                                 {
                                     
                                     "id" : 3,
-                                    "title" : "Soporte Técnico y Capacitación",
-                                    "description" : "Ofrecer soporte técnico accesible y formación personalizada para el personal. Esto incluye la resolución rápida de incidencias y la capacitación en el uso y mantenimiento de los sistemas, asegurando que el equipo esté preparado para manejar situaciones comunes.",
-                                    "image" : "asesoriaMantenimiento3"
+                                    "title" : "Networking",
+                                    "description" : "Diseñamos estrategias de conexión y prospección directa con decision makers, sin ser invasivos.",
+                                    "image" : "Networking"
+                                },
+                                {
+                                    
+                                    "id" : 4,
+                                    "title" : "Impulso Estratégico Orgánico",
+                                    "description" : "Activamos tu cuenta con un enfoque 100 % orgánico, maximizando el alcance y las oportunidades de interacción.",
+                                    "image" : "Impulso-Estratégico-Orgánico"
                                 }
                             ]
                         }
@@ -377,36 +408,36 @@
                 {
                     "image" : "thalamus",
                     "name": "Gastón B.",
-                    "quote": "Apertura de mercado en Espa ña y EEUU, expansión de servicio Gen Leads a servicio comercial, dando mayor soporte comercial.",
-                    "secondQuote" : "Llevamos casi un año trabajando con Gen Leads y estamos muy satisfechos. Entregan reuniones en target de forma constante, informan sobre el progreso y proponen ideas para mejorar las ventas.",
+                    "quote" : "Llevamos casi un año trabajando con Gen Leads y estamos muy satisfechos. Entregan reuniones en target de forma constante, informan sobre el progreso y proponen ideas para mejorar las ventas.",
+                    "start" : 5,
                     "specialitation": "Founder & CEO"
                 },
                 {
                     "image" : "optaris",
                     "name": "Uriel Trajtenberj",
-                    "quote": "Consolidación y apertura de mercado en países de Latinoamérica como México, Colombia, Chile y Panamá.",
-                    "secondQuote" : "Con respecto al servicio, estoy contento. La atención de ustedes siempre es muy cálida. Están predispuestos a escuchar nuevas ideas y lo mejor es que proponen ustedes también.",
+                    "quote" : "Con respecto al servicio, estoy contento. La atención de ustedes siempre es muy cálida. Están predispuestos a escuchar nuevas ideas y lo mejor es que proponen ustedes también.",
+                    "start" : 4,
                     "specialitation": "Chief Marketing Officer"
                 },
                 {
                     "image" : "kliiker",
                     "name": "Laura Cardona",
-                    "quote": "Consolidación y apertura de mercado en países de Latinoamérica como México, Colombia, Chile y Panamá.",
-                    "secondQuote" : "Mi experiencia con GenLeads ha sido excelente: amables, profesionales y siempre dispuestos a ayudar. Valoro su compromiso, dedicación y calidad humana en cada interacción.",
+                    "quote" : "Mi experiencia con GenLeads ha sido excelente: amables, profesionales y siempre dispuestos a ayudar. Valoro su compromiso, dedicación y calidad humana en cada interacción.",
+                    "start" : 5,
                     "specialitation": "Líder de Marketplace"
                 },
                 {
                     "image" : "thalamus",
                     "name": "Gastón B.",
-                    "quote": "Apertura de mercado en Espa ña y EEUU, expansión de servicio Gen Leads a servicio comercial, dando mayor soporte comercial.",
-                    "secondQuote" : "Llevamos casi un año con Gen Leads y su servicio ha sido excelente. Cumplen con reuniones en target, informan avances y aportan ideas para impulsar las ventas.",
+                    "quote" : "Llevamos casi un año con Gen Leads y su servicio ha sido excelente. Cumplen con reuniones en target, informan avances y aportan ideas para impulsar las ventas.",
+                    "start" : 4,
                     "specialitation": "Founder & CEO"
                 },
                 {
                     "image" : "optaris",
                     "name": "Uriel Trajtenberj",
-                    "quote": "Consolidación y apertura de mercado en países de Latinoamérica como México, Colombia, Chile y Panamá.",
-                    "secondQuote" : "Con respecto al servicio, estoy contento. La atención de ustedes siempre es muy cálida. Están predispuestos a escuchar nuevas ideas y lo mejor es que proponen ustedes también.",
+                    "quote" : "Con respecto al servicio, estoy contento. La atención de ustedes siempre es muy cálida. Están predispuestos a escuchar nuevas ideas y lo mejor es que proponen ustedes también.",
+                    "start" : 4,
                     "specialitation": "Chief Marketing Officer"
                 }
             ],
@@ -414,36 +445,36 @@
                 {
                     "image" : "thalamus",
                     "name": "Gastón B.",
-                    "quote": "Apertura de mercado en Espa ña y EEUU, expansión de servicio Gen Leads a servicio comercial, dando mayor soporte comercial.",
-                    "secondQuote" : "Llevamos casi un año con Gen Leads y su servicio ha sido excelente. Cumplen con reuniones en target, informan avances y aportan ideas para impulsar las ventas.",
+                    "quote" : "Llevamos casi un año con Gen Leads y su servicio ha sido excelente. Cumplen con reuniones en target, informan avances y aportan ideas para impulsar las ventas.",
+                    "start" : 5,
                     "specialitation": "Founder & CEO"
                 },
                 {
                     "image" : "optaris",
                     "name": "Uriel Trajtenberj",
-                    "quote": "Consolidación y apertura de mercado en países de Latinoamérica como México, Colombia, Chile y Panamá.",
-                    "secondQuote" : "Con respecto al servicio, estoy contento. La atención de ustedes siempre es muy cálida. Están predispuestos a escuchar nuevas ideas y lo mejor es que proponen ustedes también.",
+                    "quote" : "Con respecto al servicio, estoy contento. La atención de ustedes siempre es muy cálida. Están predispuestos a escuchar nuevas ideas y lo mejor es que proponen ustedes también.",
+                    "start" : 3,
                     "specialitation": "Chief Marketing Officer"
                 },
                 {
                     "image" : "kliiker",
                     "name": "Laura Cardona",
-                    "quote": "Consolidación y apertura de mercado en países de Latinoamérica como México, Colombia, Chile y Panamá.",
-                    "secondQuote" : "Mi experiencia con GenLeads ha sido excelente: amables, profesionales y siempre dispuestos a ayudar. Valoro su compromiso, dedicación y calidad humana en cada interacción.",
+                    "quote" : "Mi experiencia con GenLeads ha sido excelente: amables, profesionales y siempre dispuestos a ayudar. Valoro su compromiso, dedicación y calidad humana en cada interacción.",
+                    "start" : 4,
                     "specialitation": "Líder de Marketplace"
                 },
                 {
                     "image" : "thalamus",
                     "name": "Gastón B.",
-                    "quote": "Apertura de mercado en Espa ña y EEUU, expansión de servicio Gen Leads a servicio comercial, dando mayor soporte comercial.",
-                    "secondQuote" : "Llevamos casi un año con Gen Leads y su servicio ha sido excelente. Cumplen con reuniones en target, informan avances y aportan ideas para impulsar las ventas.",
+                    "quote" : "Llevamos casi un año con Gen Leads y su servicio ha sido excelente. Cumplen con reuniones en target, informan avances y aportan ideas para impulsar las ventas.",
+                    "start" : 5,
                     "specialitation": "Founder & CEO"
                 },
                 {
                     "image" : "optaris",
                     "name": "Uriel Trajtenberj",
-                    "quote": "Consolidación y apertura de mercado en países de Latinoamérica como México, Colombia, Chile y Panamá.",
-                    "secondQuote" : "Con respecto al servicio, estoy contento. La atención de ustedes siempre es muy cálida. Están predispuestos a escuchar nuevas ideas y lo mejor es que proponen ustedes también.",
+                    "quote" : "Con respecto al servicio, estoy contento. La atención de ustedes siempre es muy cálida. Están predispuestos a escuchar nuevas ideas y lo mejor es que proponen ustedes también.",
+                    "start" : 5,
                     "specialitation": "Chief Marketing Officer"
                 }
             ]

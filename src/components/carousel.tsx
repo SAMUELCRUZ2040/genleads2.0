@@ -1,73 +1,91 @@
+"use client";
+
 import { cn } from "@/utils/lib";
-import { ComponentPropsWithoutRef } from "react";
+import React, { useEffect, useState } from "react";
 
-interface MarqueeProps extends ComponentPropsWithoutRef<"div"> {
-  /**
-   * Optional CSS class name to apply custom styles
-   */
-  className?: string;
-  /**
-   * Whether to reverse the animation direction
-   * @default false
-   */
-  reverse?: boolean;
-  /**
-   * Whether to pause the animation on hover
-   * @default false
-   */
-  pauseOnHover?: boolean;
-  /**
-   * Content to be displayed in the marquee
-   */
-  children: React.ReactNode;
-  /**
-   * Whether to animate vertically instead of horizontally
-   * @default false
-   */
-  vertical?: boolean;
-  /**
-   * Number of times to repeat the content
-   * @default 4
-   */
-  repeat?: number;
-}
-
-export function Carousel({
-  className,
-  reverse = false,
-  pauseOnHover = false,
+export const Carousel = ({
   children,
-  vertical = false,
-  repeat = 4,
-  ...props
-}: MarqueeProps) {
+  direction = "left",
+  speed = "fast",
+  pauseOnHover = true,
+  className,
+}: {
+  direction?: "left" | "right";
+  speed?: "fast" | "normal" | "slow";
+  pauseOnHover?: boolean;
+  className?: string;
+  children: React.ReactNode;
+}) => {
+  const containerRef = React.useRef<HTMLDivElement>(null);
+  const scrollerRef = React.useRef<HTMLUListElement>(null);
+
+  useEffect(() => {
+    addAnimation();
+  }, []);
+  const [start, setStart] = useState(false);
+  function addAnimation() {
+    if (containerRef.current && scrollerRef.current) {
+      const scrollerContent = Array.from(scrollerRef.current.children);
+
+      scrollerContent.forEach((item) => {
+        const duplicatedItem = item.cloneNode(true);
+        if (scrollerRef.current) {
+          scrollerRef.current.appendChild(duplicatedItem);
+        }
+      });
+
+      getDirection();
+      getSpeed();
+      setStart(true);
+    }
+  }
+  const getDirection = () => {
+    if (containerRef.current) {
+      if (direction === "left") {
+        containerRef.current.style.setProperty(
+          "--animation-direction",
+          "forwards",
+        );
+      } else {
+        containerRef.current.style.setProperty(
+          "--animation-direction",
+          "reverse",
+        );
+      }
+    }
+  };
+  const getSpeed = () => {
+    if (containerRef.current) {
+      if (speed === "fast") {
+        containerRef.current.style.setProperty("--animation-duration", "20s");
+      } else if (speed === "normal") {
+        containerRef.current.style.setProperty("--animation-duration", "40s");
+      } else {
+        containerRef.current.style.setProperty("--animation-duration", "100s");
+      }
+    }
+  };
   return (
     <div
-      {...props}
+      ref={containerRef}
       className={cn(
-        "group flex overflow-hidden p-2 [--duration:40s] [--gap:1rem] [gap:var(--gap)]",
-        {
-          "flex-row": !vertical,
-          "flex-col": vertical,
-        },
+                "scroller  z-20 max-w-7xl  ",
+
         className,
       )}
     >
-      {Array(repeat)
-        .fill(0)
-        .map((_, i) => (
-          <div
-            key={i}
-            className={cn("flex shrink-0 justify-around [gap:var(--gap)]", {
-              "animate-marquee flex-row": !vertical,
-              "animate-marquee-vertical flex-col": vertical,
-              "group-hover:[animation-play-state:paused]": pauseOnHover,
-              "[animation-direction:reverse]": reverse,
-            })}
-          >
-            {children}
-          </div>
-        ))}
+      <ul
+        ref={scrollerRef}
+        className={cn(
+          "flex w-max min-w-full shrink-0 flex-nowrap gap-4 py-4",
+          start && "animate-scroll",
+          pauseOnHover && "hover:[animation-play-state:paused]",
+        )}
+      >
+          {children}
+      </ul>
+      <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-background"></div>
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-background"></div>
     </div>
   );
-}
+};

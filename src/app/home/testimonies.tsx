@@ -16,15 +16,18 @@ export function Testimonies() {
             `${globalClass.h2} flex flex-col items-start justify-start mt-5`,
             "max-lg:flex max-lg:flex-col max-lg:items-center max-lg:justify-center max-lg:text-center"
           )}>
-              <span className={globalClass.extraP}>testimonios</span>
-              <span>Nuestros Aliados</span>
-              <span>Impulsan Nuestra Visión</span>
+              <span className={`rounded-2xl bg-extraPrimary px-5  ${globalClass.extraP} flex items-center justify-center gap-5`}>
+                  <span className="w-3 h-3 rounded-full bg-primary "/>
+                  testimonios
+              </span>
+              <span >Nuestros Aliados</span>
+              <span className="text-primary">Impulsa Nuestra Visión</span>
           </h2>
           <h3 className={cn(
             "flex-col flex gap-5 items-end",
             "max-lg:flex max-lg:flex-col max-lg:items-center max-lg:justify-center max-lg:text-center",
           )}>
-            <span className="text-6xl">+ 500</span>
+            <span className="text-6xl text-primary">+ 500</span>
             <span className={globalClass.h3}>clientes satisfechos</span>
           </h3>
       </div>

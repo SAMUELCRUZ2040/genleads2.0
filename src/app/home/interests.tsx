@@ -7,7 +7,7 @@ export default function Interests() {
 
   return (
     <section>
-        <div className="container px-40 max-lg:p-0">
+        <div className="container px-40 max-lg:p-0 ">
             {Object.entries(data.home[0].interest[0]).map(([key, data])=>(
                 <div key={key}>
                 <Card>

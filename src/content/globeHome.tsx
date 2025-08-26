@@ -3,58 +3,54 @@
 import React, { useEffect, useRef } from "react";
 import createGlobe from "cobe";
 
-export const GlobeHome = ({ className }: { className?: string }) => {
+export const Globe = ({ className }: { className?: string }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
+ 
+useEffect(() => {
+  let phi = 0;
+  if (!canvasRef.current) return;
 
-  useEffect(() => {
-    const canvas = canvasRef.current;
-    if (!canvas) return;
+  const canvas = canvasRef.current;
 
-    let phi = 0;
-    const devicePixelRatio = window.devicePixelRatio || 1;
-
-    const resizeCanvas = () => {
-      const rect = canvas.getBoundingClientRect();
-      canvas.width = rect.width * devicePixelRatio;
-      canvas.height = rect.height * devicePixelRatio;
-    };
-
-    resizeCanvas();
-
-    const globe = createGlobe(canvas, {
-      devicePixelRatio,
-      width: canvas.width,
-      height: canvas.height,
+  const resize = () => {
+    const { width, height } = canvas.getBoundingClientRect();
+    createGlobe(canvas, {
+      devicePixelRatio: 2,
+      width: width * 2,
+      height: height * 2,
       phi: 0,
       theta: 0,
       dark: 1,
-      diffuse: 1.8,
+      diffuse: 1.2,
       mapSamples: 16000,
       mapBrightness: 6.5, // más brillo para mapa blanco
       baseColor: [0.9, 0.9, 0.9], // blanco casi puro
       markerColor: [0.9, 0.9, 0.9],
-      glowColor: [0.4, 0.9, 1],
+      glowColor: [0.784, 0.427, 0.741], // #C86DBD solo para el aura
       markers: [
         { location: [37.7595, -122.4367], size: 0.03 },
         { location: [40.7128, -74.006], size: 0.1 },
       ],
       onRender: (state) => {
         state.phi = phi;
-        phi += 0.005;
+        phi += 0.01;
       },
     });
+  };
 
-    window.addEventListener("resize", resizeCanvas);
+  resize();
+  window.addEventListener("resize", resize);
 
-    return () => {
-      window.removeEventListener("resize", resizeCanvas);
-      globe.destroy();
-    };
-  }, []);
-
+  return () => {
+    window.removeEventListener("resize", resize);
+  };
+}, []);
+ 
   return (
-    <div className={`w-full max-w-[600px] aspect-square ${className}`}>
-      <canvas ref={canvasRef} className="w-full h-full" />
-    </div>
+    <canvas
+      ref={canvasRef}
+      style={{ width: 400, height: 400, maxWidth: "100%", aspectRatio: 1 }}
+      className={className}
+    />
   );
 };

@@ -52,7 +52,7 @@ export function IncludesServices({ idPage }: includesServicesProps) {
         <ul className="flex justify-center gap-14 w-full pt-[10rem] mt-[10rem] max-md:justify-start max-md:overflow-hidden max-md:overflow-x-scroll">
           {resultInformation.map((options) => (
             <li
-              className='item cursor-pointer border-2 border-[#347faa] w-[11rem] h-[11rem] justify-center text-center rounded-full flex items-center hover:bg-[#0000000f] max-lg:w-[8rem] max-lg:h-[8rem] max-lg:text-sm p-8'
+              className='item cursor-pointer border-2 border-primary w-[11rem] h-[11rem] justify-center text-center rounded-full flex items-center hover:bg-[#0000000f] max-lg:w-[8rem] max-lg:h-[8rem] max-lg:text-sm p-8'
               key={options.id}
               onClick={() => setDetail(options.id)}
             >
@@ -89,9 +89,9 @@ export function StructureDetails({ id, idPage }: StructureDetailsProps) {
         <p className='text-lg w-3/6 max-lg:w-full max-lg:text-sm max-lg:mt-8'>{inyectInformation.description}</p>
       </div>
       <div
-        className="transition-none container_image w-full relative h-[30rem] bg-cover bg-no-repeat bg-center max-lg:w-full max-lg:h-[18rem] grayscale"
+        className="transition-none container_image w-full relative h-[39rem] bg-cover bg-no-repeat bg-center max-lg:w-full max-lg:h-[18rem] "
         style={{
-          backgroundImage: `url(/image/services/${inyectInformation.image}.webp)`,
+          backgroundImage: `url(/services/${inyectInformation.image}.jpg)`,
           width: "69%",
         }}
       />

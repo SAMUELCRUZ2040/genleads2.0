@@ -7,7 +7,6 @@ export default function InterestHomeSkeletonThree() {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
             <video
-                src="/videos/homeInterest3.webm"
                 autoPlay
                 loop
                 muted
@@ -15,6 +14,8 @@ export default function InterestHomeSkeletonThree() {
                 className="w-full h-full rounded-lg object-cover"
                 style={{ maxHeight: "30rem" }}
             >
+                  <source src="/videos/homeInterest3.webm" type="video/webm" />
+                  <source src="/videos/homeInterest3.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
         </div>

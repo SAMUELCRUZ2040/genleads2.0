@@ -14,7 +14,7 @@ export default function Footer() {
                     <div className="flex flex-col items-start justify-start max-md:items-center max-md:gap-4 max-md:justify-center">
                         <div
                             className="w-[12rem] h-[3rem] bg-cover bg-center bg-no-repeat"
-                            style={{ backgroundImage: "url(/logo.jpg)" }}
+                            style={{ backgroundImage: "url(/logo.png)" }}
                         />
                         <p className={globalClass.smallP}>
                             © copyright Startup 2024. All rights reserved.

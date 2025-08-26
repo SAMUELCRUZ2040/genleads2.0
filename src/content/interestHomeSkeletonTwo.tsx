@@ -13,7 +13,6 @@ export default function InterestHomeSkeletonTwo() {
         </div>
         <div className="">
             <video
-                src="/videos/homeInterest2.webm"
                 autoPlay
                 loop
                 muted
@@ -21,6 +20,8 @@ export default function InterestHomeSkeletonTwo() {
                 className="w-full h-full rounded-lg object-cover"
                 style={{ maxHeight: "30rem" }}
             >
+                  <source src="/videos/homeInterest2.webm" type="video/webm" />
+                  <source src="/videos/homeInterest2.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
         </div>

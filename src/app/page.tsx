@@ -1,5 +1,7 @@
 import Catch from "./home/catch";
 import Collaborators from "./home/collaborators";
+import { Consults } from "./home/consults";
+import Different from "./home/different";
 import FrontPage from "./home/frontPage";
 import Interests from "./home/interests";
 import { Testimonies } from "./home/testimonies";
@@ -8,8 +10,9 @@ export default function Home() {
   return (
     <>
       <FrontPage />
-      <Collaborators />
-      <Interests />
+      <Different />
+      <Consults />
+      <Catch />
       <Testimonies />
     </>
   );
