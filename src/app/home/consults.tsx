@@ -4,6 +4,7 @@ import { globalClass } from "@/components/globalClass";
 import { useState } from "react";
 import { ChevronDown, ChevronRight, Users, TrendingUp, Zap} from 'lucide-react';
 import Link from "next/link";
+import Image from "next/image";
 
 export  const Consults = () => {
     const [activeDropdown, setActiveDropdown] = useState<number | null>(null);
@@ -47,13 +48,19 @@ export  const Consults = () => {
     return (
         <section className="mt-72">
             <div className="container">
-                <div className="grid grid-cols-2 justify-center items-center gap-36">
-                    <div className="image w-4-/5 h-4/5">
-                        <div className="h-full w-full bg-cover bg-no-repeat bg-center " style={{backgroundImage : "url(/home/consult.png)"}} />
+                <div className="grid grid-cols-2 justify-center items-center gap-36 max-lg:grid-cols-1">
+                    <div className="image w-4-/5 h-4/5 max-lg:h-full max-lg:w-full max-lg:order-2">
+                    <Image
+                        src={`/home/consult.png`}
+                        height={160}
+                        width={160}
+                        alt={"consult"}
+                        className="w-full h-full object-cover"
+                    />
                     </div>
-                    <div className="flex flex-col gap-8">
+                    <div className="flex flex-col gap-8 max-lg:order-1">
                         <div className="flex w-full flex-col gap-5  justify-start items-start  text-justify">
-                            <span className={`rounded-2xl bg-extraPrimary px-5  ${globalClass.extraP} flex items-center justify-center gap-5`}>
+                            <span className={`rounded-2xl bg-extraPrimary px-5  ${globalClass.p} flex items-center justify-center gap-5`}>
                                 <span className="w-3 h-3 rounded-full bg-primary "/>
                                 porque nos ...
                             </span>
@@ -104,11 +111,10 @@ export  const Consults = () => {
                             </div>
                         ))}
                         </div>
-                        <Link href={"/Contact"} className={` bg-primary py-4 px-2  rounded-2xl text-center text-white text-xl ${globalClass.extraP} `}>Obten tu Asesoria Ya mismo</Link>
+                        <Link href={"/Contact"} className={` bg-primary py-4 px-2  rounded-2xl text-center text-white text-xl ${globalClass.p} `}>Obten tu Asesoria Ya mismo</Link>
                     </div>
                 </div>
             </div>
-            <span className="absolute top-0 left-0 w-[40rem] h-[40rem]  bg-gradient-radial from-purple-200/40 via-pink-100/30 to-transparent rounded-full locos"/>
             <span className="absolute top-0 left-0 w-[40rem] h-[40rem]  bg-gradient-radial from-purple-200/40 via-pink-100/30 to-transparent rounded-full locos2"/>
         </section>
     );

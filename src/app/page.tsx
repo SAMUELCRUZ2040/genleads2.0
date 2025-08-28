@@ -1,5 +1,4 @@
 import Catch from "./home/catch";
-import Collaborators from "./home/collaborators";
 import { Consults } from "./home/consults";
 import Different from "./home/different";
 import FrontPage from "./home/frontPage";
@@ -12,8 +11,8 @@ export default function Home() {
       <FrontPage />
       <Different />
       <Consults />
-      <Catch />
-      <Testimonies />
+      {/* <Catch /> */}
+      {/* <Testimonies /> */}
     </>
   );
 }

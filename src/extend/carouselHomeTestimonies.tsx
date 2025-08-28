@@ -105,11 +105,11 @@ export const InfiniteMovingCards = ({
               </span>
               <div className={cn(
                 "flex flex-col gap-3",
-                `${globalClass.extraP}`
+                `${globalClass.p}`
               )}>
 
                 <p>{item.specialitation}</p>
-                <p className={`${globalClass.smallP}`}>{item.quote}</p>
+                <p className={`${globalClass.p}`}>{item.quote}</p>
               </div>
                 <div className="start flex gap-5">
                   {[...Array(item.start)].map((_, i) => (

@@ -19,8 +19,8 @@ export default function Services() {
                     <div className='flex flex-col gap-6'>
                       <div className="w-14 h-14 bg-center bg-no-repeat bg-cover group-hover:translate-y-[-5px]" style={{backgroundImage : `url(/services/${data.image}.webp)`}} />
                       <h3 className={globalClass.h4}>{data.title}</h3>
-                      <p className={globalClass.extraP}>{data.miniDescription}</p>
-                      <p className={globalClass.extraP}>{data.description}</p>
+                      <p className={globalClass.p}>{data.miniDescription}</p>
+                      <p className={globalClass.p}>{data.description}</p>
                     </div>
                   </Link>
                 </div>

@@ -16,7 +16,7 @@ export function Testimonies() {
             `${globalClass.h2} flex flex-col items-start justify-start mt-5`,
             "max-lg:flex max-lg:flex-col max-lg:items-center max-lg:justify-center max-lg:text-center"
           )}>
-              <span className={`rounded-2xl bg-extraPrimary px-5  ${globalClass.extraP} flex items-center justify-center gap-5`}>
+              <span className={`rounded-2xl bg-extraPrimary px-5  ${globalClass.p} flex items-center justify-center gap-5`}>
                   <span className="w-3 h-3 rounded-full bg-primary "/>
                   testimonios
               </span>

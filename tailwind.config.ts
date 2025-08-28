@@ -12,7 +12,7 @@ const config: Config = {
 			'display': ['var(--font-poppins)', 'ui-sans-serif', 'system-ui'],
 		},
   		backgroundImage: {
-  			'custom-gradient': 'linear-gradient(transparent, #c86dbd 30%, #c86dbd, transparent)',		
+  			'custom-gradient': 'linear-gradient(transparent, #c86dbd10 30%, #c86dbd10, transparent)',		
 			'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
   		},
   		colors: {
@@ -23,7 +23,8 @@ const config: Config = {
 			tertiary: "#6C3483",   // mucho más claro
 			accent: "#E8DAEF",     // un poco más oscuro
 			highlight: "#F4F6F7",  // mucho más oscuro
-			extraPrimary : "#c86dbd3d"
+			extraPrimary : "#c86dbd3d",
+			softMagenta: "#c86dbd10"     // el nuevo que quieres
   		},
 		animation: {
 			scroll: 'scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite',

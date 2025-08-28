@@ -2,10 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @font-face {
-  font-family: 'LangithItalic';
-  src: url('/font/Langith Thin.otf') format('opentype');
-} */
+
 
 @layer base {
   :root {
@@ -21,8 +18,11 @@
 *{
     padding: 0;
     margin: 0;
-    /* font-family: 'LangithItalic', sans-serif; */
     color: black;
+}
+body{
+  background: #fff1fd;
+  overflow-x: hidden;
 }
 
 section {
@@ -34,27 +34,7 @@ section {
     justify-content: center;
     position: relative;
 }
-.gradient{
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0) 0%, 
-                                        rgba(246, 246, 246, 0.01) 6.67%, 
-                                        rgba(246, 246, 246, 0.04) 13.33%, 
-                                        rgba(246, 246, 246, 0.08) 20%, 
-                                        rgba(246, 246, 246, 0.15) 26.67%, 
-                                        rgba(246, 246, 246, 0.23) 33.33%, 
-                                        rgba(246, 246, 246, 0.33) 40%, 
-                                        rgba(246, 246, 246, 0.44) 46.67%, 
-                                        rgba(246, 246, 246, 0.56) 53.33%,    
-                                        rgba(246, 246, 246, 0.67) 60%, 
-                                        rgba(246, 246, 246, 0.77) 66.67%, 
-                                        rgba(246, 246, 246, 0.85) 73.33%, 
-                                        rgba(246, 246, 246, 0.92) 80%, 
-                                        rgba(255, 255, 255, 0.96) 89.67%, 
-                                        rgb(255, 255, 255) 93.33%, 
-                                        #ffffff 100%)
-}
-.container {
-    max-width: 1136px;
-}
+
 .locos{
     -webkit-filter: blur(72px);
     background-color: var(--token-944150f7-6e9a-4c8e-afad-1322a23c5add, #C86DBD);
@@ -77,12 +57,12 @@ section {
     border-radius: 1000px;
     filter: blur(72px);
     flex: none;
-    height: 637px;
+    height: 437px;
     left: calc(95.750000000000023% - 769px / 2);
     opacity: .27;
     overflow: hidden;
     position: absolute;
-    top: calc(2.8077753779697403% - 575px / 2);
+    top: calc(2.8077753779697403% - 175px / 2);
     width: 465px;
     will-change: var(--framer-will-change-override, transform);
     z-index: 1;
@@ -117,5 +97,12 @@ section {
 @media screen and (max-width: 1024px) {
   body{
     padding: 0rem 1.5rem;
+  }
+
+  .locos{
+    display: none;
+  }
+  .locos2{
+    display: none;
   }
 }
