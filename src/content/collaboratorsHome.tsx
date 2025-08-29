@@ -11,7 +11,7 @@ export default function CollaboratorsHome() {
     <section>
         <div className="container flex justify-center items-center flex-col gap-8">
             <div className="flex items-center justify-center gap-8 max-lg:flex-col max-lg:gap-5">
-              <div className="flex ">
+              <div className="flex">
                     <Tooltip items={data.home[0].frontPage} />
               </div>
               <p className={`${globalClass.p} max-lg:text-center`}>

@@ -16,7 +16,7 @@ export default function Footer() {
                             className="w-[12rem] h-[3rem] bg-cover bg-center bg-no-repeat"
                             style={{ backgroundImage: "url(/logo.png)" }}
                         />
-                        <p className={globalClass.smallP}>
+                        <p className={globalClass.pHero}>
                             © copyright Startup 2024. All rights reserved.
                         </p>
                     </div>
@@ -28,7 +28,7 @@ export default function Footer() {
                                     <Link
                                         key={linkIdx}
                                         href="/"
-                                        className={`${value[0].title ? "font-black !ps-1 !text-black" : ""} ${globalClass.smallP} ps-2`}
+                                        className={`${value[0].title ? "font-black !ps-1 !text-black" : ""} ${globalClass.pHero} ps-2`}
                                     >
                                         {value[0].word}
                                     </Link>

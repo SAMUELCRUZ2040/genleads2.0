@@ -1,14 +1,14 @@
 export const globalClass = {
   // 📝 Títulos y Encabezados
-  h1: "text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight tracking-tight max-lg:text-center",
-  h2: "text-2xl md:text-3xl lg:text-5xl font-bold text-gray-900 leading-tight",
+  h1: "text-4xl md:text-7xl lg:text-[5.1rem] font-bold text-gray-900 leading-tight tracking-tight max-lg:text-center",
+  h2: "text-2xl md:text-3xl lg:text-6xl font-bold text-gray-900 leading-tight",
   h3: "text-xl md:text-2xl lg:text-3xl font-semibold text-gray-900 leading-snug",
   h4: "text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-snug",
   h5: "text-base md:text-lg font-semibold text-gray-900 leading-normal",
   h6: "text-sm md:text-base font-medium text-gray-900 leading-normal",
 
   // 📄 Textos y Párrafos
-    p: "text-base md:text-lg text-gray-600 leading-relaxed",
+    p: "text-base md:text-2xl text-gray-600 leading-relaxed",
     pLarge: "text-lg md:text-xl text-gray-600 leading-relaxed",
     pSmall: "text-sm md:text-base text-gray-500 leading-normal",
     pHero: "text-lg md:text-xl text-gray-600 leading-relaxed max-w-3xl",

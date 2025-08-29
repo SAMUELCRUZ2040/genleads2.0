@@ -10,7 +10,7 @@ export default function Navbar() {
       "fixed top-0 left-0 w-full h-auto z-[9999] flex",
       globalClass.flexCenter
     )}>
-      <div className="container my-10 px-36 flex justify-between items-center max-lg:px-6">
+      <div className="container my-10 px-72 flex justify-between items-center max-lg:px-6 max-xl:px-32">
         <div className={cn(
           "relative py-3 w-full backdrop-blur-sm",
           "flex justify-between items-center",
@@ -21,7 +21,7 @@ export default function Navbar() {
           <div>
             <Link href="/" className="block">
               <Image
-                src="/logo.png"
+                src="/logo.webp"
                 alt="Logo"
                 width={256}
                 height={64}
@@ -34,11 +34,11 @@ export default function Navbar() {
           {/* Navigation Menu */}
           <nav className="hidden md:flex gap-7 h-full items-center">
             {data.navigation.map((item, index) => (
-              <Link
+              <a
                 key={`nav-${index}`}
                 href={item.path}
                 className={cn(
-                  globalClass.p,
+                  globalClass.pHero,
                   "flex items-center gap-2 z-[9999]",
                   "transition-transform duration-200 ease-in-out",
                   "hover:-translate-y-1 hover:translate-x-1 hover:text-black",
@@ -53,7 +53,7 @@ export default function Navbar() {
                   className="w-4 h-4"
                 />
                 {item.name}
-              </Link>
+              </a>
             ))}
           </nav>
 
@@ -63,7 +63,7 @@ export default function Navbar() {
               href="/contact" 
               className={cn(
                 globalClass.flexCenter,
-                globalClass.p,
+                globalClass.pHero,
                 "gap-2 text-lg",
                 "bg-primary hover:bg-secondary text-white rounded-2xl",
                 "px-3 py-3 transition-colors duration-200"

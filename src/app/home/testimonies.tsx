@@ -31,7 +31,7 @@ export function Testimonies() {
             <span className={globalClass.h3}>clientes satisfechos</span>
           </h3>
       </div>
-      <div className="h-auto rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden py-3 my-5">
+      <div className="h-auto rounded-md flex flex-col antialiased  dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden py-3 my-5">
         <InfiniteMovingCards
           items={data.testimonies?.[0]?.firstRow ?? []}
           direction="left"

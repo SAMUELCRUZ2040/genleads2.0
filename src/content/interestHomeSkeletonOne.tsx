@@ -1,5 +1,5 @@
 import { globalClass } from "@/components/globalClass";
-import { InterestHomeGridOne } from "@/extend/interestHomeGridOne";
+import { InterestHomeGridOne } from "@/app/home/components/Highlights/ContentHighlights2";
 
 export default function InterestHomeSkeletonOne() {
     return (

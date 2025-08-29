@@ -47,13 +47,13 @@ export  const Consults = () => {
   ];
     return (
         <section className="mt-72">
-            <div className="container">
-                <div className="grid grid-cols-2 justify-center items-center gap-36 max-lg:grid-cols-1">
-                    <div className="image w-4-/5 h-4/5 max-lg:h-full max-lg:w-full max-lg:order-2">
+            <div className="container flex justify-center items-center">
+                <div className="grid grid-cols-2 justify-center items-center gap-36 max-lg:grid-cols-1 w-[70%]">
+                    <div className="image h-[100%] w-[100%] max-lg:h-full max-lg:w-full max-lg:order-2">
                     <Image
-                        src={`/home/consult.png`}
-                        height={160}
-                        width={160}
+                        src={`/home/consultFive.png`}
+                        height={1600}
+                        width={1600}
                         alt={"consult"}
                         className="w-full h-full object-cover"
                     />
